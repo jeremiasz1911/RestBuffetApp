@@ -1,0 +1,28 @@
+{
+  "name": "buffet-rest",
+  "version": "1.0.0",
+  "description": "Backend of BuffetApp",
+  "main": "index.js",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiasz1911/BuffetApp.git"
+  },
+  "keywords": [
+    "BuffetApp"
+  ],
+  "author": "Jeremiasz Wiśniewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiasz1911/BuffetApp/issues"
+  },
+  "homepage": "https://github.com/jeremiasz1911/BuffetApp#readme"
+}
