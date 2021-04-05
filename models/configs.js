@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Config extends Model {
+  class Configs extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Config.init({
+  Configs.init({
     isTipShared: DataTypes.BOOLEAN,
     mainLanguage: DataTypes.STRING,
     secondaryLanguage: DataTypes.STRING,
@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     logo: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Config',
+    modelName: 'Configs',
   });
-  return Config;
+  return Configs;
 };
