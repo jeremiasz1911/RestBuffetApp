@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import usersController from '../controllers/usersController.js';
+import { catchAsync } from '../middlewares/errors.js';
 
 export default () => {
     const api = Router();
